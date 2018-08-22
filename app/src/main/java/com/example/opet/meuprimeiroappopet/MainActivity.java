@@ -22,6 +22,11 @@ public class MainActivity extends Activity {
         String texto = editText.getText().toString();
         if(view.getId() == R.id.btnClique){
             Toast.makeText(this, texto, Toast.LENGTH_LONG).show();
+        }else if(view.getId() == R.id.btnClique2){
+            int numero = Integer.parseInt(texto);
+            int result = numero * numero;
+            Toast.makeText(this, String.valueOf(result), Toast.LENGTH_SHORT).show();
+            editText.setText(String.valueOf(result));
         }
     }
 }

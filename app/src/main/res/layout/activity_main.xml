@@ -24,4 +24,11 @@
         android:layout_height="wrap_content"
         android:text="Clique Aqui" />
 
+    <Button
+        android:onClick="clique"
+        android:id="@+id/btnClique2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
 </LinearLayout>
